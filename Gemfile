@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'activesupport', '< 5.0' if RUBY_VERSION < '2.2'
+gem 'bundler', '2.0.2'
 
 group :development, :test do
   rspec_version = ENV['RSPEC_VERSION'] || '2.14'
